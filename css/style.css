@@ -215,10 +215,8 @@ border-radius: 50%;
    /* gallery */
 
    #photos{
-    clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0;
+    display: grid;
+  row-gap: 50px;
    }
 
    #photos > img {
